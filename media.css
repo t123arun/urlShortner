@@ -1,0 +1,198 @@
+@media(max-width:760px){
+    .hero-wrapper{
+        width: 80vw;
+        margin: 0 auto;
+    }
+    ul{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        
+        width: 40px;
+        height: 40px;
+    }
+    nav{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .hero-wrapper
+    {
+        padding-top: 40px;
+    }
+    input[type=text] {
+        padding: 15px;
+        font-size: 16px;
+        border: none;
+        float: left;
+        width: 70%;
+        background: white;
+        border-radius: 5px 0 0 5px;
+        text-align: left;
+    }
+    button {
+        float: left;
+        width: 30%;
+        padding: 15px;
+        background: #ff9df5;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        /* border: 1px solid rgb(33, 96, 148); */
+    }
+    h3 {
+        padding: 5px 0;
+        width:80%;
+        background: #ff9df5;
+        color: black;
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+        margin: 50px auto;
+        border: 1px solid transparent;
+        border-radius: 5px;
+    }
+    section{
+        background-image: url('./wave1.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      .p-menu1{
+         height: 100%;
+      }
+      
+      
+      
+      
+      /* Hamburger */
+      .hamburger1 {
+        height: 45px;
+        margin: 10px;
+        display: -ms-grid;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        justify-items: center;
+        z-index: 120;
+      }
+      
+      .hamburger1 div {
+        background-color: rgb(61, 61, 61);
+        position: relative;
+        width: 40px;
+        height: 5px;
+        margin-top: 7px;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+      }
+      
+      #toggle1 {
+        display: none;
+      }
+      
+      #toggle1:checked + .hamburger1 .top {
+        -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        margin-top: 22.5px;
+      }
+      
+      #toggle1:checked + .hamburger1 .meat {
+        -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+        margin-top: -5px;
+      }
+      
+      #toggle1:checked + .hamburger1 .bottom {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+      }
+      
+      #toggle1:checked ~ .menu1 {
+        height: 340px;
+      }
+      
+      
+      /* Menu
+      .menu1 {
+        width: 100%;
+        background-color: #02173F;
+        margin: 0;
+        display: -ms-grid;
+        display: grid;
+        grid-template-rows: 1fr repeat(4, 0.5fr);
+        grid-row-gap: 25px;
+        padding: 0;
+        list-style: none;
+        clear: both;
+        width: auto;
+        text-align: center;
+        height: 0px;
+        overflow: hidden;
+        transition: height .4s ease;
+        z-index: 120;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+      
+      .menu1 a:first-child {
+        margin-top: 40px;
+      }
+      
+      .menu1 a:last-child {
+        margin-bottom: 40px;
+      }
+      
+      .link1 {
+        width: 100%;
+        margin: 0;
+        padding: 10px 0;
+        font: 700 20px 'Oswald', sans-serif;
+      }
+      
+      .link1:hover {
+        background-color: #fff;
+        color: rgb(61, 61, 61);
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      } */
+}
+
+@media(max-width:350px){
+    input[type=text] {
+        padding: 15px;
+        font-size: 14px;
+        border: none;
+        float: left;
+        width: 60%;
+        background: white;
+        border-radius: 5px 0 0 5px;
+        text-align: left;
+    }
+    button {
+        float: left;
+        width: 40%;
+        padding: 15px;
+        background: #ff9df5;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        /* border: 1px solid rgb(33, 96, 148); */
+    }
+    h3 {
+        padding: 3px 0;
+        width:80%;
+        background: #ff9df5;
+        color: black;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        margin: 30px auto;
+        border: 1px solid transparent;
+        border-radius: 5px;
+    }
+}

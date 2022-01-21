@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d0c22;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0d0c22;
+    color: #b8b9c9;
+    height: 10vh;
+    font-size: 24px;
+    align-items: center;
+}
+
+a {
+    flex-basis: 60%;
+    text-align: left;
+    font-family: cursive;
+    color: #b8b9c9;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 700;
+   
+}
+.hamburger{
+    display: none;
+}
+.line{
+    width: 35px;
+    height: 5px;
+    background-color: #ff9df5;
+    margin: 6px 0;
+   
+}
+
+.moon {
+    border: 3px solid #b8b9c9;
+    border-radius: 0 50% 50% 0;
+    padding: 4px;
+    font-size: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 40%;
+    list-style-type: none;
+    
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    width: 61%;
+    margin: 0 auto;
+    padding-top: 50px;
+    background-color: #0d0c22;
+}
+
+section {
+    height: 90vh;
+    background-image: url('./wave.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+.dropdown{
+    height: 0;
+    display: none;
+}
+
+h1 {
+    font-size: 75px;
+    font-family: cursive;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'Rubik', sans-serif;
+}
+
+.hero-wrapper {
+    
+    width: 60vw;
+    margin: 0 auto;
+    /* background: yellow; */
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+input[type=text] {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+    border-radius: 5px 0 0 5px;
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+}
+
+.form {
+    padding: 30px 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #ff9df5;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    /* border: 1px solid rgb(33, 96, 148); */
+    font-family: 'Rubik', sans-serif;
+}
+
+.search-btn {
+    font-weight: 700;
+    color: black;
+    border-radius: 0 5px 5px 0;
+}
+
+h3 {
+    padding: 10px 0;
+    width:80%;
+    background: #ff9df5;
+    color: black;
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+    margin: 50px auto;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-family: 'Rubik', sans-serif;
+}

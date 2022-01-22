@@ -3,9 +3,20 @@
         width: 80vw;
         margin: 0 auto;
     }
-    ul{
-        display: none;
+    nav{
+      flex-direction: column;
+      align-items: normal;
+      gap: 20px;
     }
+    nav a{
+      text-align: center;
+    }
+    ul{
+      display: flex;
+      justify-content: space-between;
+      
+    }
+    
     .hamburger{
         display: block;
         
@@ -116,50 +127,7 @@
         height: 340px;
       }
       
-      
-      /* Menu
-      .menu1 {
-        width: 100%;
-        background-color: #02173F;
-        margin: 0;
-        display: -ms-grid;
-        display: grid;
-        grid-template-rows: 1fr repeat(4, 0.5fr);
-        grid-row-gap: 25px;
-        padding: 0;
-        list-style: none;
-        clear: both;
-        width: auto;
-        text-align: center;
-        height: 0px;
-        overflow: hidden;
-        transition: height .4s ease;
-        z-index: 120;
-        -webkit-transition: all 0.3s ease;
-        transition: all 0.3s ease;
-      }
-      
-      .menu1 a:first-child {
-        margin-top: 40px;
-      }
-      
-      .menu1 a:last-child {
-        margin-bottom: 40px;
-      }
-      
-      .link1 {
-        width: 100%;
-        margin: 0;
-        padding: 10px 0;
-        font: 700 20px 'Oswald', sans-serif;
-      }
-      
-      .link1:hover {
-        background-color: #fff;
-        color: rgb(61, 61, 61);
-        -webkit-transition: all 0.3s ease;
-        transition: all 0.3s ease;
-      } */
+     
 }
 
 @media(max-width:350px){
